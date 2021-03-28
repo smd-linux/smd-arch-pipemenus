@@ -47,7 +47,7 @@ done
 
 RESTART_ATTEMPTS=20 # times to try killall before reverting to -s KILL
 
-BL_COMMON_LIBDIR='/usr/lib/smd-arch/common'
+BL_COMMON_LIBDIR='/usr/lib/smdlinux/common'
 
 if ! . "$BL_COMMON_LIBDIR/am-include.cfg" 2> /dev/null; then
     echo $"Error: Failed to source am-include.cfg in $BL_COMMON_LIBDIR" >&2

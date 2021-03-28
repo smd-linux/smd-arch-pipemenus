@@ -60,8 +60,8 @@ USAGE2="\v\tUSAGE:\tam-conkyzen [OPTION]...FILES
 ### DIALOG VARIABLES
 DLG="yad --center --undecorated --borders=20 "
 DLGDEC="yad --center  --borders=20 "
-TITLE="ArchLinux Conky Manager"
-WINICON="--window-icon=distributor-logo-archlinux"
+TITLE="SMD-Linux Conky Manager"
+WINICON="--window-icon=distributor-logo-bunsenlabs"
 OK="--button=yad-ok:0"
 CANCEL="--button=yad-cancel:1"
 

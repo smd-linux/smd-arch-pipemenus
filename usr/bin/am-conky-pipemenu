@@ -24,7 +24,7 @@ Options:
     If am-conky-pipemenu is called with no options (the usual method),
     it will output an xml openbox pipemenu for handling conky sessions.
 
-See /usr/share/smd-arch/docs/helpfile-conkyzen.txt and "man conky"
+See /usr/share/smdlinux/docs/helpfile-conkyzen.txt and "man conky"
 for more information.
 '
 # look for a help option somewhere
@@ -38,7 +38,7 @@ do
     esac
 done
 
-AL_COMMON_LIBDIR='/usr/lib/smd-arch/common'
+AL_COMMON_LIBDIR='/usr/lib/smdlinux/common'
 
 CONKYDEFAULT="$HOME/.conkyrc"
 CONKYPATH="$HOME/.config/conky"
@@ -46,7 +46,7 @@ CSESSIONFILE="$CONKYPATH/conky-sessionfile"
 SESSIONS="$CONKYPATH/saved-sessions"
 CZEN="am-conkyzen"
 CSESSION="am-conky-session"
-HELPFILE="/usr/share/smd-arch/docs/helpfile-conkyzen.txt"
+HELPFILE="/usr/share/smdlinux/docs/helpfile-conkyzen.txt"
 
 if ! . "$AL_COMMON_LIBDIR/am-include.cfg" 2> /dev/null; then
     echo "Error: Failed to source am-include.cfg in $AL_COMMON_LIBDIR" >&2
@@ -137,7 +137,7 @@ getConkys(){
 
 checkHelpfile(){
     DLG="yad --text-info --center --borders=20 \
-    --title='SMD-Arch Conky Manager Help' \
+    --title='SMD-Linux Conky Manager Help' \
     --filename=$HELPFILE --fontname=Monospace \
     --width=650 --height=700 \
     --button=yad-ok:0"

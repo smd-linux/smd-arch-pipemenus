@@ -37,7 +37,7 @@ do
     esac
 done
 
-AL_COMMON_LIBDIR='/usr/lib/smd-arch/common'
+AL_COMMON_LIBDIR='/usr/lib/smdlinux/common'
 
 if ! . "$AL_COMMON_LIBDIR/am-include.cfg" 2> /dev/null; then
     echo $"Error: Failed to source am-include.cfg in $AL_COMMON_LIBDIR" >&2

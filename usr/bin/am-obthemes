@@ -78,7 +78,7 @@ No other options are supported.
                        X configs (.bashrc, .Xresources)
                        Termite config
 
- Paths are assumed to be ArchLinux defaults.
+ Paths are assumed to be SMD-Linux defaults.
 
  A Screenshot is saved (Windows are hidden briefly so the image
                         is the bare desktop, with any Tint2s
@@ -165,15 +165,15 @@ PICKX="X configs"
 ### END CONFIGS VARIABLES
 
 ### DIALOG VARIABLES
-DIALOG="yad --center --undecorated --borders=20 --window-icon=distributor-logo-archlinux"
-DIALOGDEC="yad --center  --borders=20 --window-icon=distributor-logo-archlinux"
+DIALOG="yad --center --undecorated --borders=20 --window-icon=distributor-logo-bunsenlabs"
+DIALOGDEC="yad --center  --borders=20 --window-icon=distributor-logo-bunsenlabs"
 TITLE="ALOB Configuration Manager"
 T="--text="
 OK="--button=yad-ok:0"
 CANCEL="--button=yad-cancel:1"
 EXIT="--button=yad-quit:1"
 CLOSE="--button=yad-close:1"
-TXTINTRO='<big><b>ArchLinux Openbox Configuration Manager</b></big>
+TXTINTRO='<big><b>SMD-Linux Openbox Configuration Manager</b></big>
 
 
 <b>Save or Restore settings for:</b>
